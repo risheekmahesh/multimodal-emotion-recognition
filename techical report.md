@@ -15,7 +15,7 @@ The Audio CNN model showed steady improvement during training. Training accuracy
 
 ## Audio CNN Confusion Matrix
 <img width="780" height="699" alt="confusion matrix" src="https://github.com/user-attachments/assets/05974633-f013-4f90-9b7d-d70ab58092ae" />
-
+The confusion matrix shows that the Audio CNN model was able to classify several emotions correctly, although some emotions were confused due to similarity in vocal tone.
 
 ## Text LSTM Accuracy
 
@@ -37,10 +37,24 @@ The loss values remained relatively high, showing that the text model struggled 
 
 
 
-
-
-
 The confusion matrix shows that the Audio CNN model was able to classify several emotions correctly, although some emotions were confused due to similarity in vocal tone.
 
 <img width="613" height="468" alt="late fusion performance comparison" src="https://github.com/user-attachments/assets/b1ec389e-497b-496d-956b-1c4537569e43" />
 <img width="780" height="699" alt="confusion matrix" src="https://github.com/user-attachments/assets/9d8de18b-59ef-427f-b685-e2ae7ba4d692" /> 
+
+
+#  Fusion Results
+
+| Model | Accuracy |
+|---|---|
+| Audio CNN | 0.54 |
+| Text LSTM | 0.17 |
+| Average Fusion | 0.50 |
+| Weighted Fusion | 0.475 |
+| Maximum Rule | 0.475 |
+
+The late fusion approach helped combine predictions from both modalities and improved the robustness of emotion recognition.
+
+# Conclusion
+
+This project successfully implemented a multimodal emotion recognition system using both audio and text modalities. The Audio CNN model performed better than the Text LSTM model because emotional information was captured more effectively from speech signals. The fusion techniques demonstrated how combining multiple modalities can improve overall prediction reliability.
