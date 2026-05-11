@@ -37,7 +37,15 @@ The loss values remained relatively high, showing that the text model struggled 
 
 
 
-The confusion matrix shows that the Audio CNN model was able to classify several emotions correctly, although some emotions were confused due to similarity in vocal tone.
+# Late Fusion Performance Comparison
+
+
+
+The late fusion methods were used to combine predictions from both the Audio CNN and Text LSTM models.
+
+Among the three fusion techniques, Average Fusion achieved the best performance with an accuracy of 0.50. Weighted Fusion and Maximum Confidence Rule achieved slightly lower accuracies of 0.475.
+
+The results indicate that combining audio and text information can improve overall emotion recognition performance. However, the audio modality contributed more strongly to prediction accuracy compared to the text modality.
 
 <img width="613" height="468" alt="late fusion performance comparison" src="https://github.com/user-attachments/assets/b1ec389e-497b-496d-956b-1c4537569e43" />
 
