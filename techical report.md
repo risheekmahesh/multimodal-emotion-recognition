@@ -1,3 +1,9 @@
+#  System Architecture
+
+The following diagram represents the overall architecture of the multimodal emotion recognition system developed in this project.
+
+
+The system combines audio-based emotion recognition using CNN and text-based emotion recognition using LSTM. Predictions from both models are combined using late fusion techniques for final emotion classification.
 <img width="1536" height="1024" alt="architecture final" src="https://github.com/user-attachments/assets/f4e3d853-ac41-4b8e-8469-405814d50695" />
 <img width="314" height="453" alt="text lstm loss" src="https://github.com/user-attachments/assets/e5d1ccaa-4bab-45f6-a625-16c20ac5506e" />
 <img width="780" height="699" alt="text lstm confusion matrix" src="https://github.com/user-attachments/assets/b3dce7a0-96df-4535-9637-d6b91b38fd7f" />
