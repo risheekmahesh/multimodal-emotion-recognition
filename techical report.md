@@ -11,7 +11,8 @@ The system combines audio-based emotion recognition using CNN and text-based emo
 
 The Audio CNN model showed steady improvement during training. Training accuracy increased gradually while validation accuracy remained reasonably stable.
 
-# 6. Text LSTM Training Results
+# <img width="1010" height="468" alt="audio cnn loss and accuracy" src="https://github.com/user-attachments/assets/bd128502-0a6c-4aae-bc5d-ab671bb8b3bd" />
+Text LSTM Training Results
 
 ## Text LSTM Accuracy
 
