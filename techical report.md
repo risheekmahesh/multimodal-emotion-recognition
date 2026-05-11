@@ -1,3 +1,4 @@
+
 # Multimodal Emotion Recognition Using Audio CNN, Whisper Transcripts, and Text RNN
 
 ---
@@ -59,7 +60,7 @@ For audio emotion recognition, Mel Spectrogram features were extracted using Lib
 - Dropout
 - Dense layers with Softmax output
 
-![Architecture Diagram](architecture.png)
+<img width="1536" height="1024" alt="architecture" src="https://github.com/user-attachments/assets/d262a85b-f490-4f79-a4a6-388b17afb80c" />
 
 ---
 
