@@ -32,9 +32,15 @@ The loss values remained relatively high, showing that the text model struggled 
 
 
 <img width="314" height="453" alt="text lstm loss" src="https://github.com/user-attachments/assets/e5d1ccaa-4bab-45f6-a625-16c20ac5506e" />
-##  Confusion Matrices
+
+## Text LSTM Confusion Matrix
 
 
+The confusion matrix for the Text LSTM model shows that the text-based classifier struggled to correctly distinguish between multiple emotion classes. Most predictions were concentrated around a few classes, which indicates weaker learning performance compared to the Audio CNN model.
+
+This happened because many Whisper-generated transcripts were short, unclear, or lacked emotional context. As a result, the text model faced difficulty understanding the actual emotion behind the speech samples.
+
+<img width="780" height="699" alt="text lstm confusion matrix" src="https://github.com/user-attachments/assets/73d2ef81-a6af-40fb-abb1-55dfa71fef40" />
 
 
 # Late Fusion Performance Comparison
@@ -49,7 +55,7 @@ The results indicate that combining audio and text information can improve overa
 
 <img width="613" height="468" alt="late fusion performance comparison" src="https://github.com/user-attachments/assets/b1ec389e-497b-496d-956b-1c4537569e43" />
 
-<img width="780" height="699" alt="text lstm confusion matrix" src="https://github.com/user-attachments/assets/73d2ef81-a6af-40fb-abb1-55dfa71fef40" />
+
 
 
 #  Fusion Results
