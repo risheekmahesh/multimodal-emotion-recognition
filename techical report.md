@@ -42,6 +42,17 @@ This happened because many Whisper-generated transcripts were short, unclear, or
 
 <img width="780" height="699" alt="text lstm confusion matrix" src="https://github.com/user-attachments/assets/73d2ef81-a6af-40fb-abb1-55dfa71fef40" />
 
+#  Fusion Results
+
+| Model | Accuracy |
+|---|---|
+| Audio CNN | 0.54 |
+| Text LSTM | 0.17 |
+| Average Fusion | 0.50 |
+| Weighted Fusion | 0.475 |
+| Maximum Rule | 0.475 |
+
+The late fusion approach helped combine predictions from both modalities and improved the robustness of emotion recognition.
 
 # Late Fusion Performance Comparison
 
@@ -55,20 +66,6 @@ The results indicate that combining audio and text information can improve overa
 
 <img width="613" height="468" alt="late fusion performance comparison" src="https://github.com/user-attachments/assets/b1ec389e-497b-496d-956b-1c4537569e43" />
 
-
-
-
-#  Fusion Results
-
-| Model | Accuracy |
-|---|---|
-| Audio CNN | 0.54 |
-| Text LSTM | 0.17 |
-| Average Fusion | 0.50 |
-| Weighted Fusion | 0.475 |
-| Maximum Rule | 0.475 |
-
-The late fusion approach helped combine predictions from both modalities and improved the robustness of emotion recognition.
 
 # Conclusion
 
