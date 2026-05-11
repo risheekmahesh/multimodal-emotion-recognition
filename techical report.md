@@ -40,7 +40,8 @@ The loss values remained relatively high, showing that the text model struggled 
 The confusion matrix shows that the Audio CNN model was able to classify several emotions correctly, although some emotions were confused due to similarity in vocal tone.
 
 <img width="613" height="468" alt="late fusion performance comparison" src="https://github.com/user-attachments/assets/b1ec389e-497b-496d-956b-1c4537569e43" />
-<img width="780" height="699" alt="confusion matrix" src="https://github.com/user-attachments/assets/9d8de18b-59ef-427f-b685-e2ae7ba4d692" /> 
+
+<img width="780" height="699" alt="text lstm confusion matrix" src="https://github.com/user-attachments/assets/73d2ef81-a6af-40fb-abb1-55dfa71fef40" />
 
 
 #  Fusion Results
