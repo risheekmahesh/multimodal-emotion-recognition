@@ -59,7 +59,7 @@ For audio emotion recognition, Mel Spectrogram features were extracted using Lib
 - Dropout
 - Dense layers with Softmax output
 
-![Architecture Diagram](architecture_results_diagram.png)
+![Architecture Diagram](architecture.png)
 
 ---
 
