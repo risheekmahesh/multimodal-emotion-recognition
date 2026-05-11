@@ -12,7 +12,7 @@ The system combines audio-based emotion recognition using CNN and text-based emo
 The Audio CNN model showed steady improvement during training. Training accuracy increased gradually while validation accuracy remained reasonably stable.
 
 # <img width="1010" height="468" alt="audio cnn loss and accuracy" src="https://github.com/user-attachments/assets/bd128502-0a6c-4aae-bc5d-ab671bb8b3bd" />
-Text LSTM Training Results
+###Text LSTM Training Results
 
 ## Text LSTM Accuracy
 
@@ -27,7 +27,7 @@ The Text LSTM model achieved lower accuracy because some transcripts lacked clea
 
 The loss values remained relatively high, showing that the text model struggled to generalize effectively.
 
-<img width="1010" height="468" alt="audio cnn loss and accuracy" src="https://github.com/user-attachments/assets/77ffbcd6-c338-451e-a4ce-fb0ec27a01c9" />
+
 <img width="314" height="453" alt="text lstm loss" src="https://github.com/user-attachments/assets/e5d1ccaa-4bab-45f6-a625-16c20ac5506e" />
 <img width="780" height="699" alt="text lstm confusion matrix" src="https://github.com/user-attachments/assets/b3dce7a0-96df-4535-9637-d6b91b38fd7f" />
 
