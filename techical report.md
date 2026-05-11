@@ -13,6 +13,9 @@ The Audio CNN model showed steady improvement during training. Training accuracy
 
 # <img width="1010" height="468" alt="audio cnn loss and accuracy" src="https://github.com/user-attachments/assets/bd128502-0a6c-4aae-bc5d-ab671bb8b3bd" />
 
+## Audio CNN Confusion Matrix
+<img width="780" height="699" alt="confusion matrix" src="https://github.com/user-attachments/assets/05974633-f013-4f90-9b7d-d70ab58092ae" />
+
 
 ## Text LSTM Accuracy
 
@@ -31,10 +34,10 @@ The loss values remained relatively high, showing that the text model struggled 
 <img width="314" height="453" alt="text lstm loss" src="https://github.com/user-attachments/assets/e5d1ccaa-4bab-45f6-a625-16c20ac5506e" />
 ##  Confusion Matrices
 
-## Audio CNN Confusion Matrix
 
 
-<imgwidth="780" height="699" alt="text lstm confusion matrix" src="https://github.com/user-attachments/assets/b3dce7a0-96df-4535-9637-d6b91b38fd7f" />
+
+
 
 
 The confusion matrix shows that the Audio CNN model was able to classify several emotions correctly, although some emotions were confused due to similarity in vocal tone.
